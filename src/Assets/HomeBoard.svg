@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="700" viewBox="0 0 700 700">
+  <defs>
+    <filter id="Polygon_1" x="492" y="16" width="195.231" height="200" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_1" x="258" y="258" width="195" height="195" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_4" x="492" y="497" width="195" height="195" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3" x="25" y="21" width="195" height="195" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygon_5" x="28.769" y="255" width="195.231" height="200" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-xoxo-board">
+      <rect width="700" height="700"/>
+    </clipPath>
+  </defs>
+  <g id="xoxo-board" clip-path="url(#clip-xoxo-board)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(233)" fill="#040404" stroke="#707070" stroke-width="1">
+      <rect width="6" height="700" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="5" height="699" rx="2.5" fill="none"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(700 233) rotate(90)" fill="#040404" stroke="#707070" stroke-width="1">
+      <rect width="6" height="700" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="5" height="699" rx="2.5" fill="none"/>
+    </g>
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(700 472) rotate(90)" fill="#040404" stroke="#707070" stroke-width="1">
+      <rect width="6" height="700" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="5" height="699" rx="2.5" fill="none"/>
+    </g>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(472)" fill="#040404" stroke="#707070" stroke-width="1">
+      <rect width="6" height="700" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="5" height="699" rx="2.5" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Polygon_1)">
+      <path id="Polygon_1-2" data-name="Polygon 1" d="M87.717,1.847a1,1,0,0,1,1.8,0l87.017,178.716a1,1,0,0,1-.9,1.438H1.6a1,1,0,0,1-.9-1.438Z" transform="translate(496 20)" fill="#e03b8b"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_1)">
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="88.5" cy="88.5" r="88.5" transform="translate(262 262)" fill="#35bdd0"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_4)">
+      <circle id="Ellipse_4-2" data-name="Ellipse 4" cx="88.5" cy="88.5" r="88.5" transform="translate(496 501)" fill="#35bdd0"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_3)">
+      <circle id="Ellipse_3-2" data-name="Ellipse 3" cx="88.5" cy="88.5" r="88.5" transform="translate(29 25)" fill="#35bdd0"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Polygon_5)">
+      <path id="Polygon_5-2" data-name="Polygon 5" d="M87.717,1.847a1,1,0,0,1,1.8,0l87.017,178.716a1,1,0,0,1-.9,1.438H1.6a1,1,0,0,1-.9-1.438Z" transform="translate(32.77 259)" fill="#e03b8b"/>
+    </g>
+  </g>
+</svg>

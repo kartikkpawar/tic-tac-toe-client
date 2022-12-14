@@ -1,0 +1,17 @@
+.header__container {
+  height: 70px;
+}
+.logo_holder {
+  height: 80%;
+  padding: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+@media screen and (max-device-width: 880px) {
+  .header__container {
+    display: flex;
+  }
+  .logo_holder {
+    margin: 0 auto;
+  }
+}

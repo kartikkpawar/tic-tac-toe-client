@@ -1,0 +1,186 @@
+.game__container {
+  display: flex;
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  height: 100vmin;
+  flex-direction: column;
+  overflow: hidden;
+}
+.board__conatiner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.game__right {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.game__left {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.game__center {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.side__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.player__name {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.player__states {
+  margin-top: 10px;
+  display: flex;
+  height: 70px;
+  width: 60%;
+  max-width: 200px;
+  justify-content: space-evenly;
+}
+.win__message {
+  height: 50px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid__container {
+  margin-top: 20px;
+  background-color: #0d0d0d;
+  /* TODO: Change this sizes for making the project responsive */
+  height: 402px;
+  width: 402px;
+}
+
+.game__board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  border-radius: 10px;
+}
+
+.card {
+  /* TODO: Change this sizes for making the project responsive */
+  width: 134px;
+  height: 134px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.share__id {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.share__id span {
+  font-size: 18px;
+}
+.share__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 20px;
+}
+#share__input {
+  width: 300px;
+  height: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: none;
+  color: #000;
+  background-color: #75828360;
+}
+.share__copy {
+  font-size: 30px;
+  margin-left: 10px;
+  user-select: none;
+  cursor: pointer;
+}
+.share__msg {
+  display: flex;
+
+  align-items: center;
+}
+.reload__icon {
+  font-size: 30px;
+  margin-left: 30px;
+}
+@media screen and (max-device-width: 880px) {
+  .game__container {
+    height: 100vmax;
+    overflow-y: scroll;
+  }
+  .board__conatiner {
+    flex-direction: column;
+  }
+  .share__id {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  #share__input {
+    width: 90%;
+    height: 15px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  .share__copy {
+    font-size: 25px;
+    margin-left: 8px;
+  }
+  .share__container span {
+    display: none;
+  }
+  .player__name {
+    font-size: 1.2rem;
+  }
+  .side__container {
+    width: 100%;
+  }
+  .player__states {
+    width: 30%;
+    height: 30px;
+  }
+  .grid__container {
+    height: 300px;
+    width: 300px;
+  }
+  .card {
+    width: 100px;
+    height: 100px;
+  }
+  .game__board {
+    grid-gap: 2px;
+  }
+  .win__message {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+}
